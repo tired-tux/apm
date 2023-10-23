@@ -10,3 +10,6 @@ lib:
 	rm *-lib.zip
 clean:
 	rm main.o main
+new:
+	touch main.s
+	mkdir lib
