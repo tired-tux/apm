@@ -13,5 +13,5 @@ clean:
 new:
 	touch main.s
 	mkdir lib
-store:
-	echo -e "install\nupdate\nremove\nsearch" | gum choose --limit=1
+unlock:
+	mv .store.mk store.mk
