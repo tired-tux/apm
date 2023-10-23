@@ -13,3 +13,5 @@ clean:
 new:
 	touch main.s
 	mkdir lib
+store:
+	
