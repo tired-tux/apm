@@ -14,4 +14,4 @@ new:
 	touch main.s
 	mkdir lib
 store:
-	
+	echo -e "install\nupdate\nremove\nsearch"
