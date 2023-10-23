@@ -8,3 +8,5 @@ build:
 lib:
 	unzip *-lib.zip
 	rm *-lib.zip
+clean:
+	rm main.o main
