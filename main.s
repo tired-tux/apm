@@ -2,15 +2,15 @@
 .intel_syntax noprefix
 
 _start:
-    mov r8, 6
-    mov r9, 10
-    add r8, r9
-    lea rsi, [r8]
-    mov rax, 1
-    mov rdi, 1
-    mov rdx, 3
+    mov rdx,6
+    lea rsi, [hello]
+    mov rbx,1
+    mov rax,1
     syscall
-    
-    mov rax, 60
-    mov rdi, 1
+
+    mov rbx,0
+    mov rax,60
     syscall
+
+hello:
+    .asciz "Hello\n"
